@@ -1,0 +1,59 @@
+# Phoenix ROM files - copyrighted by Amstar (1981)
+# These files are required to build the Phoenix FPGA bitstream
+# but cannot be distributed due to copyright restrictions.
+#
+# To obtain these ROMs:
+# 1. Download phoenix.zip from a MAME ROM set (e.g., MAME 0.37b+)
+# 2. Extract the contents to this directory
+#
+# Required files:
+#   b1-ic39.3b    - Foreground tile ROM (IC39)
+#   b2-ic40.4b    - Foreground tile ROM (IC40)
+#   ic23.3d       - Background tile ROM (IC23)
+#   ic24.4d       - Background tile ROM (IC24)
+#   ic45          - Program ROM (IC45)
+#   ic46          - Program ROM (IC46)
+#   ic47          - Program ROM (IC47)
+#   ic48          - Program ROM (IC48)
+#   h5-ic49.5a    - Program ROM (IC49)
+#   h6-ic50.6a    - Program ROM (IC50)
+#   h7-ic51.7a    - Program ROM (IC51)
+#   h8-ic52.8a    - Program ROM (IC52)
+#   mmi6301.ic40  - Palette PROM (IC40)
+#   mmi6301.ic41  - Palette PROM (IC41)
+#
+# MAME CRC checksums (for verification):
+#   b1-ic39.3b:   CRC 53413e8f  SHA1 d772358505b973b10da840d204afb210c0c746ec
+#   b2-ic40.4b:   CRC 0be2ba91  SHA1 af9243ee23377b632b9b7d0b84d341d06bf22480
+#   ic23.3d:      CRC 3c7e623f  SHA1 e7ff5fc371664af44785c079e92eeb2d8530187b
+#   ic24.4d:      CRC 59916d3b  SHA1 71aec70a8e096ed1f0c2297b3ae7dca1b8ecc38d
+#   ic45:         CRC 9f68086b  SHA1 fc3cef299bf03bf0586c4047c6b96ca666846220
+#   ic46:         CRC 273a4a82  SHA1 6f3019a074e73ff50ceb92f655fcf15659f34919
+#   ic47:         CRC 3d4284b9  SHA1 6e69f8f0d537fe89140cd95d2398531d7e93d102
+#   ic48:         CRC cb5d9915  SHA1 49bcf55a5721cfcc02c3b811a4b601e35ea576db
+#   h5-ic49.5a:   CRC a105e4e7  SHA1 b35142a91b6b7fdf7535202671793393c9f4685f
+#   h6-ic50.6a:   CRC ac5e9ec1  SHA1 0402e5241d99759d804291998efd43f37ce99917
+#   h7-ic51.7a:   CRC 2eab35b4  SHA1 849bf8273317cc869bdd67e50c68399ee8ece81d
+#   h8-ic52.8a:   CRC aff8e9c5  SHA1 e4164f85ec12d4d9bcbffba27ab1f51b3599f6d
+#   mmi6301.ic40: CRC 79350b25  SHA1 57411be4c1d89677f7919ae295446da90612c8a8
+#   mmi6301.ic41: CRC e176b768  SHA1 e2184dd495ed579f10b6da0b78379e02d7a6229f
+
+*.bin
+*.hex
+!*.vhd
+b1-ic39.3b
+b2-ic40.4b
+ic23.3d
+ic24.4d
+ic45
+ic46
+ic47
+ic48
+h5-ic49.5a
+h6-ic50.6a
+h7-ic51.7a
+h8-ic52.8a
+mmi6301.ic40
+mmi6301.ic41
+readme.html
+phoenix.zip

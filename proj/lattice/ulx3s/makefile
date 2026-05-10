@@ -2,7 +2,7 @@
 PROJECT = phoenix
 BOARD = ulx3s
 # 12 25 45 85
-FPGA_SIZE = 25
+FPGA_SIZE = 85
 
 FPGA_PACKAGE = 6bg381c
 # config flash: 1:SPI (standard), 4:QSPI (quad)
@@ -84,5 +84,4 @@ VERILOG_FILES = \
 
 SCRIPTS = ../scripts
 include $(SCRIPTS)/trellis_path.mk
-include $(SCRIPTS)/diamond_path.mk
-include $(SCRIPTS)/diamond_main.mk
+include $(SCRIPTS)/trellis_main.mk

@@ -1,1 +1,21 @@
-/phoenix_unzip
+# Phoenix ROM extraction directory
+# ROM files themselves are copyrighted and must be obtained separately
+/phoenix_unzip/roms/*.bin
+/phoenix_unzip/roms/*.hex
+/phoenix_unzip/roms/b1-ic39.3b
+/phoenix_unzip/roms/b2-ic40.4b
+/phoenix_unzip/roms/ic23.3d
+/phoenix_unzip/roms/ic24.4d
+/phoenix_unzip/roms/ic45
+/phoenix_unzip/roms/ic46
+/phoenix_unzip/roms/ic47
+/phoenix_unzip/roms/ic48
+/phoenix_unzip/roms/h5-ic49.5a
+/phoenix_unzip/roms/h6-ic50.6a
+/phoenix_unzip/roms/h7-ic51.7a
+/phoenix_unzip/roms/h8-ic52.8a
+/phoenix_unzip/roms/mmi6301.ic40
+/phoenix_unzip/roms/mmi6301.ic41
+/phoenix_unzip/roms/readme.html
+/phoenix_unzip/roms/phoenix.zip
+/phoenix_unzip/unzip_roms_here
